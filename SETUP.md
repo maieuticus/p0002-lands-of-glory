@@ -21,7 +21,7 @@ npm run test:coverage
 npm run test:integration # Controller und Pixi-Ressourcen ohne Browser
 npm run test:structure
 npm run verify      # komplette nichtgrafische Qualitätskette
-npm run dev         # Vite auf http://localhost:3000
+npm.cmd --workspace=lands-of-glory-prototype run dev -- --host 127.0.0.1 # Vite auf http://localhost:3000
 ```
 
 Cypress benötigt zusätzlich eine installierte Browser-Laufzeit. Der Testserver für E2E wird mit `npm run dev:e2e` gestartet; die Suite verwendet `npm run test:e2e`. Der abschließende Browserlauf ist im aktuellen Block-3-Protokoll als ungeprüft vermerkt.

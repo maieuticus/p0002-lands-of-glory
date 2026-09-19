@@ -19,7 +19,7 @@ Bogenschützen greifen ausschließlich auf Entfernung 2–3 an und erleiden beim
 ```bash
 npm ci
 npm run verify
-npm run dev
+npm.cmd --workspace=lands-of-glory-prototype run dev -- --host 127.0.0.1
 ```
 
 Danach `http://localhost:3000` öffnen. Die wichtigsten Tasten sind `D` (Debug), `E` (Zugende), `Esc` (Auswahl aufheben), `Strg+Z` (Undo), Linksklick/Ziehen (Aktion), Rechtsklick-Ziehen (Panning) und Mausrad (Zoom).

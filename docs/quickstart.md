@@ -3,7 +3,7 @@
 ```bash
 npm ci
 npm run verify
-npm run dev
+npm.cmd --workspace=lands-of-glory-prototype run dev -- --host 127.0.0.1
 ```
 
 Browser: <http://localhost:3000>.
